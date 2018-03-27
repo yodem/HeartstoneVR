@@ -1,12 +1,12 @@
 {
   "name": "heartstone-backend",
   "version": "0.0.1",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "author": "Yotam Fromm",
   "description": "backend server for the heartstone game",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
+    "cors": "^2.8.4",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "http": "0.0.0",

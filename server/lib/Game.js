@@ -1,4 +1,5 @@
 var mongoose = require("mongoose")
+var Player = require('./Player');
 
 var ObjectId = mongoose.SchemaTypes.ObjectId;
 //game schema
