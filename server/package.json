@@ -4,7 +4,9 @@
   "license": "GPL-3.0",
   "author": "Yotam Fromm",
   "description": "backend server for the heartstone game",
-  "scripts": {},
+  "scripts": {
+    "test": "vows --spec"
+  },
   "dependencies": {
     "cors": "^2.8.4",
     "ejs": "^2.5.7",
@@ -13,5 +15,8 @@
     "mongodb": "^3.0.2",
     "mongoose": "^5.0.11",
     "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
