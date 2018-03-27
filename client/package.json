@@ -1,9 +1,10 @@
 {
-  "name": "babylondptp",
-  "version": "0.0.0",
-  "private": true,
+  "name": "heartstone-frontend",
+  "version": "0.0.1",
+  "author": "Yotam Fromm",
+  "license": "GPLv3",
+  "description": "backend server for the heartstone game",
   "scripts": {
-    "start": "node ./main/www"
   },
   "dependencies": {
     "body-parser": "~1.18.2",

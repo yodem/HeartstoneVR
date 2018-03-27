@@ -1,13 +1,11 @@
 {
-  "name": "babylonserver",
-  "version": "1.0.0",
-  "description": "server for the heartstone game",
-  "main": "app.js",
+  "name": "heartstone-backend",
+  "version": "0.0.1",
+  "license": "GPLv3",
+  "author": "Yotam Fromm",
+  "description": "backend server for the heartstone game",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.2",
