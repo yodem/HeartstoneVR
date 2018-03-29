@@ -5,7 +5,7 @@
   "author": "Yotam Fromm",
   "description": "backend server for the heartstone game",
   "scripts": {
-    "test": "vows --spec"
+    "test": "mocha lib/**/**.spec.js"
   },
   "dependencies": {
     "cors": "^2.8.4",
@@ -17,6 +17,11 @@
     "socket.io": "^2.0.4"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "babel-eslint": "^8.2.2",
+    "chai": "^4.1.2",
+    "eslint-plugin-babel": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.2",
+    "mocha": "^5.0.5"
   }
 }

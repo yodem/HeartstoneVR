@@ -1,4 +1,25 @@
-module.exports = {
+'use strict';
+
+/**
+ * Module dependencies.
+ */
+const mongoose = require("mongoose")
+
+//player schema
+const playerSchema = new mongoose.Schema({
+  username: String,
+  password: String,
+  playerName: String,
+  wins: Number,
+  losts: Number,
+  money: Number
+})
+
+/**
+ * Methods
+ */
+
+playerScherma.methods = {
 //create player according to registration data
 
   createPlayer: function(username, password, playerName, playerSchema) {
@@ -35,3 +56,5 @@ module.exports = {
     return bool
   }
 }
+
+mongoose.model("Player", playerSchema);
